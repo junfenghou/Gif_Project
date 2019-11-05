@@ -1,0 +1,77 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test",
+    "children" : [ {
+      "name" : "test_search",
+      "children" : [ {
+        "name" : "Test_Base",
+        "children" : [ {
+          "name" : "test_1",
+          "uid" : "ba40dacb3fb32141",
+          "parentUid" : "a7e1973fda88a49f29bab0237dcb050b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1572390915191,
+            "stop" : 1572390916431,
+            "duration" : 1240
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_1[1]",
+          "uid" : "4ccd6491ca29ce16",
+          "parentUid" : "a7e1973fda88a49f29bab0237dcb050b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1572392468864,
+            "stop" : 1572392468865,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "parameters" : [ "1" ]
+        }, {
+          "name" : "test_1[2]",
+          "uid" : "f64f2081eba321",
+          "parentUid" : "a7e1973fda88a49f29bab0237dcb050b",
+          "status" : "failed",
+          "time" : {
+            "start" : 1572392486906,
+            "stop" : 1572392486914,
+            "duration" : 8
+          },
+          "flaky" : false,
+          "parameters" : [ "2" ]
+        }, {
+          "name" : "test_1[3]",
+          "uid" : "27ddc0a48314a341",
+          "parentUid" : "a7e1973fda88a49f29bab0237dcb050b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1572392504150,
+            "stop" : 1572392504152,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "parameters" : [ "3" ]
+        }, {
+          "name" : "test_2",
+          "uid" : "8112c996a950c268",
+          "parentUid" : "a7e1973fda88a49f29bab0237dcb050b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1572392520665,
+            "stop" : 1572392521994,
+            "duration" : 1329
+          },
+          "flaky" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a7e1973fda88a49f29bab0237dcb050b"
+      } ],
+      "uid" : "3c55830958bc799ebda4561183839153"
+    } ],
+    "uid" : "0b78c9c59ea4f706402d505dad753d3e"
+  } ]
+}

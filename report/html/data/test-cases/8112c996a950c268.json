@@ -1,0 +1,81 @@
+{
+  "uid" : "8112c996a950c268",
+  "name" : "test_2",
+  "fullName" : "Test.test_search.Test_Base#test_2",
+  "historyId" : "3076e89e749c67a48d0075dc4be40f5f",
+  "time" : {
+    "start" : 1572392520665,
+    "stop" : 1572392521994,
+    "duration" : 1329
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "Test"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Base"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E3BR8K0"
+  }, {
+    "name" : "thread",
+    "value" : "16352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "95036e42aa128fa4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1572390886155,
+        "stop" : 1572390897755,
+        "duration" : 11600
+      }
+    }, {
+      "uid" : "e9b657e854d8408e",
+      "status" : "broken",
+      "statusDetails" : "urllib.error.URLError: <urlopen error [WinError 10061] 由于目标计算机积极拒绝，无法连接。>",
+      "time" : {
+        "start" : 1572390812074,
+        "stop" : 1572390812074,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "575601722c412f56",
+      "status" : "broken",
+      "statusDetails" : "ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。",
+      "time" : {
+        "start" : 1572390568332,
+        "stop" : 1572390568332,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8112c996a950c268.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,29 @@
+#对象
+#值为字符
+animal:pets
+#值为字典
+animal1:{'key':'pets','key':'app'}
+#数组
+animal2:
+    -data1
+    -data2
+animal3:['data3','data4']
+#纯量
+#值为字符串
+value:'hello'
+#值为布尔值
+value1:true
+value2:false
+#整数，浮点数
+value3:12
+value4:12.102
+#空
+value5:~
+#日期
+value6：2019-10-28 07：22：00
+#锚点&和引用*
+data:&imp
+    value7：456
+name:
+    value8:123
+    <<:*imp

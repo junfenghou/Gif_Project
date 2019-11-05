@@ -1,0 +1,105 @@
+{
+  "uid" : "f64f2081eba321",
+  "name" : "test_1[2]",
+  "fullName" : "Test.test_search.Test_Base#test_1",
+  "historyId" : "b9415ef641a4cfbc70e8a702098c30c1",
+  "time" : {
+    "start" : 1572392486906,
+    "stop" : 1572392486914,
+    "duration" : 8
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 2 != 2",
+  "statusTrace" : "self = <Test.test_search.Test_Base object at 0x03918F70>, a = 2\n\n    @pytest.mark.parametrize('a',[1,2,3])\n    #@pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.step(title=\"测试步骤001\")\n    def test_1(self,a):\n        allure.attach('描述','我是测试步骤001的描述')\n>       assert a != 2\nE       assert 2 != 2\n\nTest\\test_search.py:23: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 2 != 2",
+    "statusTrace" : "self = <Test.test_search.Test_Base object at 0x03918F70>, a = 2\n\n    @pytest.mark.parametrize('a',[1,2,3])\n    #@pytest.allure.severity(pytest.allure.severity_level.CRITICAL)\n    @allure.severity(allure.severity_level.CRITICAL)\n    @allure.step(title=\"测试步骤001\")\n    def test_1(self,a):\n        allure.attach('描述','我是测试步骤001的描述')\n>       assert a != 2\nE       assert 2 != 2\n\nTest\\test_search.py:23: AssertionError",
+    "steps" : [ {
+      "name" : "测试步骤001",
+      "time" : {
+        "start" : 1572392486907,
+        "stop" : 1572392486910,
+        "duration" : 3
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 2 != 2\n",
+      "statusTrace" : "  File \"c:\\users\\admin900625\\appdata\\local\\programs\\python\\python36-32\\lib\\site-packages\\allure_commons\\_allure.py\", line 157, in impl\n    return func(*a, **kw)\n  File \"C:\\Users\\admin900625\\Desktop\\auto\\app\\Gif_Project\\Test\\test_search.py\", line 23, in test_1\n    assert a != 2\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79bbd5e1149b0dee",
+        "name" : "我是测试步骤001的描述",
+        "source" : "79bbd5e1149b0dee.attach",
+        "type" : "text/plain",
+        "size" : 6
+      } ],
+      "parameters" : [ {
+        "name" : "a",
+        "value" : "2"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Base"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E3BR8K0"
+  }, {
+    "name" : "thread",
+    "value" : "16352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "Test.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "2"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f64f2081eba321.json",
+  "parameterValues" : [ "2" ]
+}
