@@ -1,5 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","Test.test_search.Test_Base#test_1","5",""
-"failed","Test.test_search.Test_Base#test_1","22",""
-"passed","Test.test_search.Test_Base#test_1","4",""
-"passed","Test.test_search.Test_Base#test_2","5108",""
