@@ -2,64 +2,52 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "test_1",
-    "uid" : "ba40dacb3fb32141",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1572390915191,
-      "stop" : 1572390916431,
-      "duration" : 1240
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
     "name" : "test_1[1]",
-    "uid" : "4ccd6491ca29ce16",
+    "uid" : "e1bd3edd73f257e8",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1572392468864,
-      "stop" : 1572392468865,
-      "duration" : 1
+      "start" : 1583339879220,
+      "stop" : 1583339879225,
+      "duration" : 5
     },
     "flaky" : false,
     "parameters" : [ "1" ]
   }, {
     "name" : "test_1[2]",
-    "uid" : "f64f2081eba321",
+    "uid" : "4c791c3ee2c101e9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1572392486906,
-      "stop" : 1572392486914,
-      "duration" : 8
+      "start" : 1583339943040,
+      "stop" : 1583339943062,
+      "duration" : 22
     },
     "flaky" : false,
     "parameters" : [ "2" ]
   }, {
     "name" : "test_1[3]",
-    "uid" : "27ddc0a48314a341",
+    "uid" : "6bb17d3eab91b040",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1572392504150,
-      "stop" : 1572392504152,
-      "duration" : 2
+      "start" : 1583340003274,
+      "stop" : 1583340003278,
+      "duration" : 4
     },
     "flaky" : false,
     "parameters" : [ "3" ]
   }, {
     "name" : "test_2",
-    "uid" : "8112c996a950c268",
+    "uid" : "faa0a47a428139a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1572392520665,
-      "stop" : 1572392521994,
-      "duration" : 1329
+      "start" : 1583340049242,
+      "stop" : 1583340054350,
+      "duration" : 5108
     },
-    "flaky" : true,
+    "flaky" : false,
     "parameters" : [ ]
   } ]
 }

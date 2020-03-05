@@ -1,5 +1,5 @@
 import sys
-sys.path.append('E:\\工作\\软件\\app\\Gif_Project')
+sys.path.append('E:\\app\\git_program\\Gif_Project')
 from Page.search_page import Search_Page
 from Basic.Init_Driver import init_driver
 import time,allure,pytest

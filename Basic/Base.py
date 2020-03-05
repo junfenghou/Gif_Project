@@ -1,5 +1,5 @@
 import sys
-sys.path.append('E:\\工作\\软件\\app\\Gif_Project')
+sys.path.append('E:\\app\\git_program\\Gif_Project')
 from selenium.webdriver.support.wait import WebDriverWait
 
 class Base(object):

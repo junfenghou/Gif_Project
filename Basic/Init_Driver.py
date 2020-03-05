@@ -1,5 +1,5 @@
 import sys
-sys.path.append('E:\\工作\\软件\\app\\Gif_Project')
+sys.path.append('E:\\app\\git_program\\Gif_Project')
 from appium import webdriver
 
 def init_driver():

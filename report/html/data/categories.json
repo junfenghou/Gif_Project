@@ -7,13 +7,13 @@
       "name" : "AssertionError: assert 2 != 2",
       "children" : [ {
         "name" : "test_1[2]",
-        "uid" : "f64f2081eba321",
+        "uid" : "4c791c3ee2c101e9",
         "parentUid" : "46e237b74d8f43a081a3467b827ad3c6",
         "status" : "failed",
         "time" : {
-          "start" : 1572392486906,
-          "stop" : 1572392486914,
-          "duration" : 8
+          "start" : 1583339943040,
+          "stop" : 1583339943062,
+          "duration" : 22
         },
         "flaky" : false,
         "parameters" : [ "2" ]

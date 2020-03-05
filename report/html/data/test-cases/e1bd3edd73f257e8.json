@@ -1,12 +1,12 @@
 {
-  "uid" : "4ccd6491ca29ce16",
+  "uid" : "e1bd3edd73f257e8",
   "name" : "test_1[1]",
   "fullName" : "Test.test_search.Test_Base#test_1",
   "historyId" : "e4de93357fd955bf569d6f0464a2687e",
   "time" : {
-    "start" : 1572392468864,
-    "stop" : 1572392468865,
-    "duration" : 1
+    "start" : 1583339879220,
+    "stop" : 1583339879225,
+    "duration" : 5
   },
   "status" : "passed",
   "flaky" : false,
@@ -16,16 +16,16 @@
     "steps" : [ {
       "name" : "测试步骤001",
       "time" : {
-        "start" : 1572392468864,
-        "stop" : 1572392468864,
-        "duration" : 0
+        "start" : 1583339879222,
+        "stop" : 1583339879225,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "a79d9f266c93d690",
+        "uid" : "531e98b232e9e4a6",
         "name" : "我是测试步骤001的描述",
-        "source" : "a79d9f266c93d690.attach",
+        "source" : "531e98b232e9e4a6.attach",
         "type" : "text/plain",
         "size" : 6
       } ],
@@ -33,17 +33,17 @@
         "name" : "a",
         "value" : "1"
       } ],
-      "stepsCount" : 0,
-      "hasContent" : true,
+      "shouldDisplayMessage" : false,
       "attachmentsCount" : 1,
-      "shouldDisplayMessage" : false
+      "hasContent" : true,
+      "stepsCount" : 0
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 1,
-    "hasContent" : true,
+    "shouldDisplayMessage" : false,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false
+    "hasContent" : true,
+    "stepsCount" : 1
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -63,7 +63,7 @@
     "value" : "DESKTOP-E3BR8K0"
   }, {
     "name" : "thread",
-    "value" : "16352-MainThread"
+    "value" : "15776-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -90,6 +90,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4ccd6491ca29ce16.json",
+  "source" : "e1bd3edd73f257e8.json",
   "parameterValues" : [ "1" ]
 }

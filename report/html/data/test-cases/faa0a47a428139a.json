@@ -1,12 +1,12 @@
 {
-  "uid" : "95036e42aa128fa4",
+  "uid" : "faa0a47a428139a",
   "name" : "test_2",
   "fullName" : "Test.test_search.Test_Base#test_2",
   "historyId" : "3076e89e749c67a48d0075dc4be40f5f",
   "time" : {
-    "start" : 1572390886155,
-    "stop" : 1572390897755,
-    "duration" : 11600
+    "start" : 1583340049242,
+    "stop" : 1583340054350,
+    "duration" : 5108
   },
   "status" : "passed",
   "flaky" : false,
@@ -26,7 +26,7 @@
     "value" : "DESKTOP-E3BR8K0"
   }, {
     "name" : "thread",
-    "value" : "19220-MainThread"
+    "value" : "15776-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -42,12 +42,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "95036e42aa128fa4.json",
+  "source" : "faa0a47a428139a.json",
   "parameterValues" : [ ]
 }
