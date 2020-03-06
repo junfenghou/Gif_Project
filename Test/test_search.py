@@ -14,7 +14,7 @@ class Test_Base:
         sp.input_search_text(123)
         #self.driver.quit()
     '''
-    @pytest.mark.parametrize('a',[1,2,3])
+    @pytest.mark.parametrize('a',[1,4,3])
     #@pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     @allure.severity(allure.severity_level.CRITICAL)
     @allure.step(title="测试步骤001")
